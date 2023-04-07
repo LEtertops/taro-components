@@ -1,0 +1,10 @@
+[defaults]
+url=https://sentry.hydee.cn/
+project=hydee-health-customer
+org=hydee-sentry
+
+[auth]
+token=3c819ef3dcef474e90569ddf0b2647055bd7983be57c42db87133dc1a57d3c27
+
+[log]
+level=debug

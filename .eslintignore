@@ -1,0 +1,11 @@
+/src/tencent-webim/
+/src/healthnews/components/wxparse/utils
+dist/
+node_modules/
+generators/
+config/
+ci/
+babel.config.js
+tsconfig.json
+docs/
+scripts/

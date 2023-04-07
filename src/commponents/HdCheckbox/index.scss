@@ -1,0 +1,17 @@
+.hd-checkbox {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+
+	&.disabled {
+		opacity: 0.4;
+	}
+
+	.hd-checkbox-text {
+		margin-left: 8px;
+		font-weight: normal;
+		font-size: 24px;
+		color: #808086;
+	}
+}
