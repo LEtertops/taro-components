@@ -37,6 +37,11 @@ interface IIcon {
 	iconClass?: string
 }
 
+interface ILabel {
+  children: any
+  className: string
+}
+
 const Icon = (props: IIcon) => {
 	const { checked, style, iconClass } = props || {}
   if (iconClass) {
@@ -52,6 +57,14 @@ const Icon = (props: IIcon) => {
 		</Text>
 	)
 }
+
+const Label = (props: ILabel) => {
+  const { children, className } = props || {}
+  return typeof children === 'string'
+    ? <Text className={className}>{children}</Text>
+    : children
+}
+
 const HdCheckbox = (props: IProps) => {
   const { fontSize, uncheckIconClass, checkedIconColor, iconSize } = props
   const { uncheckIconColor, checkedIconClass, className, label } = props
@@ -65,7 +78,6 @@ const HdCheckbox = (props: IProps) => {
 	const uncheckColor = uncheckIconColor || iconColor || '#e54339'
 	const color = checked ? checkColor : uncheckColor
 	const style = { color, fontSize: Taro.pxTransform(iconSize || 36) }
-  const isString = typeof children === 'string'
 	return (
 		<View
 			className={cls('hd-checkbox', className, { checked, disabled })}
@@ -77,7 +89,9 @@ const HdCheckbox = (props: IProps) => {
 			) : (
 				<Icon style={style} iconClass={uncheckIconClass} />
 			)}
-			{children ? children : isString ? (<Text className='hd-checkbox-text'>{children || label}</Text>) : null}
+      {children
+        ? <Label className='hd-checkbox-text'>{ children || label}</Label>
+        : null}
 		</View>
 	)
 }

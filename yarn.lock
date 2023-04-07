@@ -4068,6 +4068,11 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+dlv@^1.1.3:
+  version "1.1.3"
+  resolved "http://npm.pt.hydee.cn/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
+  integrity sha1-XBmKihFFNZbnUUlNSYdLx3MvLnk=
+
 dns-equal@^1.0.0:
   version "1.0.0"
   resolved "http://npm.pt.hydee.cn/dns-equal/-/dns-equal-1.0.0.tgz#b39e7f1da6eb0a75ba9c17324b34753c47e0654d"
@@ -8046,6 +8051,11 @@ postcss-safe-parser@^6.0.0:
   resolved "http://npm.pt.hydee.cn/postcss-safe-parser/-/postcss-safe-parser-6.0.0.tgz#bb4c29894171a94bc5c996b9a30317ef402adaa1"
   integrity sha1-u0wpiUFxqUvFyZa5owMX70Aq2qE=
 
+postcss-scss@^4.0.2, postcss-scss@^4.0.6:
+  version "4.0.6"
+  resolved "http://npm.pt.hydee.cn/postcss-scss/-/postcss-scss-4.0.6.tgz#5d62a574b950a6ae12f2aa89b60d63d9e4432bfd"
+  integrity sha512-rLDPhJY4z/i4nVFZ27j9GqLxj1pwxE80eAzUNRMXtcpipFYIeowerzBgG3yJhMtObGEXidtIgbUpQ3eLDsf5OQ==
+
 postcss-selector-parser@^6.0.11, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.9:
   version "6.0.11"
   resolved "http://npm.pt.hydee.cn/postcss-selector-parser/-/postcss-selector-parser-6.0.11.tgz#2e41dc39b7ad74046e1615185185cd0b17d0c8dc"
@@ -8053,6 +8063,11 @@ postcss-selector-parser@^6.0.11, postcss-selector-parser@^6.0.2, postcss-selecto
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
+
+postcss-sorting@^8.0.2:
+  version "8.0.2"
+  resolved "http://npm.pt.hydee.cn/postcss-sorting/-/postcss-sorting-8.0.2.tgz#6393385ece272baf74bee9820fb1b58098e4eeca"
+  integrity sha512-M9dkSrmU00t/jK7rF6BZSZauA5MAaBW4i5EnJXspMwt4iqTh/L9j6fgMnbElEOfyRyfLfVbIHj/R52zHzAPe1Q==
 
 postcss-svgo@^5.1.0:
   version "5.1.0"
@@ -8097,7 +8112,7 @@ postcss@^7.0.23, postcss@^7.0.32:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.1.10, postcss@^8.2.14, postcss@^8.3.5, postcss@^8.4.18, postcss@^8.4.19:
+postcss@^8.1.10, postcss@^8.2.14, postcss@^8.3.5, postcss@^8.4.18, postcss@^8.4.19, postcss@^8.4.21:
   version "8.4.21"
   resolved "http://npm.pt.hydee.cn/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
   integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
@@ -9323,6 +9338,66 @@ stylehacks@^5.1.1:
   dependencies:
     browserslist "^4.21.4"
     postcss-selector-parser "^6.0.4"
+
+stylelint-config-recommended-scss@^9.0.0:
+  version "9.0.1"
+  resolved "http://npm.pt.hydee.cn/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-9.0.1.tgz#7ea233ea637ac2d8f0b50d8aad236257e44e2cbb"
+  integrity sha512-qAmz/TdrqslwiMTuLM3QXeISUkfEDUXGMfRBCHm/xrkCJNnQefv+mzG2mWTsWkqcVk8HAyUkug10dwAcYp2fCQ==
+  dependencies:
+    postcss-scss "^4.0.2"
+    stylelint-config-recommended "^10.0.1"
+    stylelint-scss "^4.4.0"
+
+stylelint-config-recommended@^10.0.1:
+  version "10.0.1"
+  resolved "http://npm.pt.hydee.cn/stylelint-config-recommended/-/stylelint-config-recommended-10.0.1.tgz#25a8828acf6cde87dac6db2950c8c4ed82a69ae1"
+  integrity sha512-TQ4xQ48tW4QSlODcti7pgSRqBZcUaBzuh0jPpfiMhwJKBPkqzTIAU+IrSWL/7BgXlOM90DjB7YaNgFpx8QWhuA==
+
+stylelint-config-recommended@^11.0.0:
+  version "11.0.0"
+  resolved "http://npm.pt.hydee.cn/stylelint-config-recommended/-/stylelint-config-recommended-11.0.0.tgz#b1cb7d71bd92f9b8593f93c2ca6df16ed7d61522"
+  integrity sha512-SoGIHNI748OCZn6BxFYT83ytWoYETCINVHV3LKScVAWQQauWdvmdDqJC5YXWjpBbxg2E761Tg5aUGKLFOVhEkA==
+
+stylelint-config-standard-scss@^7.0.1:
+  version "7.0.1"
+  resolved "http://npm.pt.hydee.cn/stylelint-config-standard-scss/-/stylelint-config-standard-scss-7.0.1.tgz#4ba83fa19e1508937f7e02674e085cf94fc1a145"
+  integrity sha512-m5sRdtsB1F5fnC1Ozla7ryftU47wVpO+HWd+JQTqeoG0g/oPh5EfbWfcVHbNCEtuoHfALIySiUWS20pz2hX6jA==
+  dependencies:
+    stylelint-config-recommended-scss "^9.0.0"
+    stylelint-config-standard "^30.0.1"
+
+stylelint-config-standard@^30.0.1:
+  version "30.0.1"
+  resolved "http://npm.pt.hydee.cn/stylelint-config-standard/-/stylelint-config-standard-30.0.1.tgz#a84d57c240c37f7db47023ab9d2e64c49090e1eb"
+  integrity sha512-NbeHOmpRQhjZh5XB1B/S4MLRWvz4xxAxeDBjzl0tY2xEcayNhLbaRGF0ZQzq+DQZLCcPpOHeS2Ru1ydbkhkmLg==
+  dependencies:
+    stylelint-config-recommended "^10.0.1"
+
+stylelint-config-standard@^32.0.0:
+  version "32.0.0"
+  resolved "http://npm.pt.hydee.cn/stylelint-config-standard/-/stylelint-config-standard-32.0.0.tgz#97179035e967f22a7b7e27f14a74f5d5fc0f0bd6"
+  integrity sha512-UnGJxYDyYFrIE9CjDMZRkrNh2o4lOtO+MVZ9qG5b8yARfsWho0GMx4YvhHfsv8zKKgHeWX2wfeyxmuoqcaYZ4w==
+  dependencies:
+    stylelint-config-recommended "^11.0.0"
+
+stylelint-order@^6.0.3:
+  version "6.0.3"
+  resolved "http://npm.pt.hydee.cn/stylelint-order/-/stylelint-order-6.0.3.tgz#160b78650bd90463241b992581efee7159baefc2"
+  integrity sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==
+  dependencies:
+    postcss "^8.4.21"
+    postcss-sorting "^8.0.2"
+
+stylelint-scss@^4.4.0, stylelint-scss@^4.6.0:
+  version "4.6.0"
+  resolved "http://npm.pt.hydee.cn/stylelint-scss/-/stylelint-scss-4.6.0.tgz#f7602d6d562bb256802e38e3fd5e49c46d2e31b6"
+  integrity sha512-M+E0BQim6G4XEkaceEhfVjP/41C9Klg5/tTPTCQVlgw/jm2tvB+OXJGaU0TDP5rnTCB62aX6w+rT+gqJW/uwjA==
+  dependencies:
+    dlv "^1.1.3"
+    postcss-media-query-parser "^0.2.3"
+    postcss-resolve-nested-selector "^0.1.1"
+    postcss-selector-parser "^6.0.11"
+    postcss-value-parser "^4.2.0"
 
 stylelint@^14.4.0:
   version "14.16.1"
